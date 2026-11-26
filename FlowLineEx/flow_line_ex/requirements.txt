@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+CairoSVG==2.9.0
+cairocffi==1.7.1
+# DiffVG / pydiffvg is built from its pinned source revision; see ENVIRONMENT.md.

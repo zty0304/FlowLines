@@ -1,0 +1,23 @@
+seed: 42
+train_dir: ./data/processed/train
+val_dir: ./data/processed/val
+output_dir: ./runs/stage1
+
+image_size: 512
+batch_size: 16
+num_workers: 4
+
+epochs: 100
+lr: 0.0002
+weight_decay: 0.0001
+
+device: cuda
+save_every: 5
+
+lambda_center: 1.0
+lambda_orient: 0.5
+lambda_bg: 0.2
+lambda_smooth: 0.05
+
+augment: true
+resume: null
