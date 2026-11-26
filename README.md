@@ -15,11 +15,9 @@ Tianyu Zhang, I-Chao Shen, Haoran Xie
 
 This is the official repository for our SIGGRAPH Asia 2026 paper,
 **Structure–Color Disentangled Anime Hair Synthesis via Flow Line**.
-
 We introduce **Flow Line**, a sparse and intuitive representation
 that captures the fine-grained structure and color intent of anime
 hairstyles.
-
 Our framework enables independent control of hair structure and
 color, supporting flexible hairstyle synthesis, transfer,
 and manipulation.
