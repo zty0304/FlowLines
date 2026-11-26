@@ -8,7 +8,7 @@ Tianyu Zhang, I-Chao Shen, Haoran Xie
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://zty0304.github.io/FlowLines-web/)
 [![Paper](https://img.shields.io/badge/Paper-ACM-red)](https://doi.org/10.1145/3829340.3842227)
 
-![Teaser](assets/teaser.png)
+![Teaser](assets/teaser.jpg)
 
 ## Overview
 
@@ -23,10 +23,9 @@ and manipulation.
 
 ## Release Status
 
-- [ ] Dataset
-- [ ] Inference code
-- [ ] Pretrained models
-- [ ] Training code
+- [x] Dataset
+- [x] Flow line extraction code
+- [ ] Models and checkpoints
 
 
 ## Dataset
