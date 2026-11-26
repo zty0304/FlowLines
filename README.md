@@ -60,13 +60,6 @@ and manipulation tasks:
 
 ![Applications](assets/applications.png)
 
-## License
-
-Please refer to [DATASET_LICENSE.md](DATASET_LICENSE.md)
-for the terms applicable to the released dataset.
-
-Code and model weights, if released, will be accompanied
-by their respective licenses.
 
 ## Citation
 
