@@ -89,7 +89,3 @@ please consider citing our paper:
 We thank all participants who contributed to the creation
 of our flow line annotations.
 
-## Contact
-
-For questions regarding the paper or dataset, please
-open an issue in this repository.
