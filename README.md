@@ -28,62 +28,25 @@ and manipulation.
 - [ ] Pretrained models
 - [ ] Training code
 
+
 ## Dataset
 
-We introduce the **Flow Line Dataset**, a dataset designed for
-flow line-guided anime hair synthesis and flow line extraction.
-
-The dataset used in our paper consists of two subsets:
-
-- **Hair Synthesis Dataset**: paired character images before
-  and after hairstyle synthesis, together with flow line annotations.
-- **Flow Line Extraction Dataset**: anime hairstyle images
-  paired with corresponding flow line annotations.
-
-### Dataset Statistics
-
-| Subset | Training | Testing | Total |
-| --- | ---: | ---: | ---: |
-| Hair Synthesis | 898 | 167 | 1,065 |
-| Flow Line Extraction | 973 | 200 | 1,173 |
-
-All images are processed at a resolution of 1024 × 1024.
-
-The statistics above describe the datasets used in the paper.
-Please refer to the release notes for the contents of each
-publicly available version.
-
-### Dataset Preview
-
-![Dataset Examples](assets/dataset_examples.png)
+We release the **Flow Line Dataset** associated with our paper.
+The flow line annotations were manually drawn by artists to
+capture the structure and color of anime hairstyles.
 
 ### Download
 
-| Dataset | Download |
-| --- | --- |
-| Hair Synthesis | Coming soon |
-| Flow Line Extraction | Coming soon |
+- [Flow Line Dataset](https://jstorage.box.com/s/v8lc0jymfcud9kmhelhywkit42owpksy)
+- [Danbooru Image Metadata (CSV)](dataset/metadata.csv)
 
-### Data Organization
+### Copyright Notice
 
-Please refer to [Dataset Documentation](dataset/README.md)
-for the directory structure, annotation format, data splits,
-and instructions for using the dataset.
+Due to copyright restrictions, we do not redistribute the
+original images sourced from Danbooru. Please refer to the
+provided CSV file to retrieve the corresponding images,
+subject to their respective copyright and usage restrictions.
 
-### Data Sources and Usage
-
-The dataset includes character imagery, hairstyle reference
-materials, and flow line annotations.
-
-Flow line annotations were created specifically for this
-research by consenting participants.
-
-Please refer to the dataset documentation for detailed
-information about data provenance, released components,
-and applicable usage restrictions.
-
-Third-party materials remain subject to their respective
-rights and licenses.
 
 ## Applications
 
