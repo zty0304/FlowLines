@@ -7,7 +7,6 @@ Tianyu Zhang, I-Chao Shen, Haoran Xie
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://zty0304.github.io/FlowLines-web/)
 [![Paper](https://img.shields.io/badge/Paper-ACM-red)](https://doi.org/10.1145/3829340.3842227)
-![SIGGRAPH Asia](https://img.shields.io/badge/SIGGRAPH%20Asia-2026-orange)
 
 ![Teaser](assets/teaser.png)
 
