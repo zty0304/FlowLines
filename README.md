@@ -47,18 +47,11 @@ provided CSV file to retrieve the corresponding images,
 subject to their respective copyright and usage restrictions.
 
 
-## Applications
+## Flow Line Extraction
 
-Our framework supports various anime hairstyle synthesis
-and manipulation tasks:
+Drawing hair flow lines by hand takes a lot of time, which makes the dataset hard to extend to new images. To make it easier to use, we trained a [model](FlowLineEx/) on the human-drawn flow lines in our dataset. Given an anime illustration and its hair mask, it automatically extracts hair flow lines as vector curves (SVG).
 
-- Structure-guided hairstyle synthesis
-- Color-guided hairstyle synthesis
-- Independent structure and color manipulation
-- Hairstyle transfer
-- Flow line extraction
-
-![Applications](assets/applications.png)
+The code and pretrained weights are in [`FlowLineEx/flow_line_ex/`](FlowLineEx/flow_line_ex/). See [its README](FlowLineEx/flow_line_ex/README.md) for installation and usage.
 
 
 ## Citation
